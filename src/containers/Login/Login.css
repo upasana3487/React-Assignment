@@ -1,0 +1,66 @@
+/*
+ * Login container
+ */
+
+ .login-box {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+  }
+  
+  .logo {
+    height: 150px;
+    width: 300px;
+  }
+  
+  h4 {
+    color: #767070;
+  }
+  
+  /*
+   * Input
+   */
+  
+  .normal-input {
+    width: 100%;
+    border: #a6a6a6 2px solid;
+    border-radius: 8px;
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+  
+  .input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .input-logo {
+    position: absolute;
+    top: 28%;
+    right: 1%;
+    width: 44px;
+    height: 44px;
+    color: #8e8e8e;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #a6a6a6;
+  }
+  
+  /*
+   * Login button
+   */
+  
+  .login-btn {
+    color: white;
+    background: #6485a2;
+    border-radius: 10px;
+    padding: 5px 35px;
+    font-size: 18px;
+  }
+  
+  .login-btn:disabled {
+    background: #95b0c9;
+  }
+  

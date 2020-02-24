@@ -1,0 +1,43 @@
+// Signup
+export const SIGNUP_START = "SIGNUP_START";
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const SIGNUP_FAIL = "SIGNUP_FAIL";
+export const SET_REDIRECT_PATH = "SET_REDIRECT_PATH";
+
+// Login
+export const AUTH_START = "AUTH_START";
+export const AUTH_SUCCESS = "AUTH_SUCCESS";
+export const AUTH_FAIL = "AUTH_FAIL";
+export const LOG_OUT = "LOG_OUT";
+
+// Category
+export const CATEGORY_INIT = "CATEGORY_INIT";
+export const CATEGORY_FETCHED = "CATEGORY_FETCHED";
+export const CATEGORY_SEARCH = "CATEGORY_SEARCH";
+export const CATEGORY_FAIL = "CATEGORY_FAIL";
+
+// Product
+export const SET_CURRENT_PRODUCT = "SET_CURRENT_PRODUCT";
+export const PRODUCT_ERROR = "PRODUCT_ERROR";
+
+// Compare
+export const COMPARE_PRODUCT = "COMPARE_PRODUCT";
+
+// Filter
+export const SET_MODEL_YEAR = "SET_MODEL_YEAR";
+export const SET_AIR_FLOW = "SET_AIR_FLOW";
+export const SET_MAX_POWER = "SET_MAX_POWER";
+export const SET_SOUND_AT_MAX_SPEED = "SET_SOUND_AT_MAX_SPEED";
+export const SET_FAN_SWEEP_DIAMETER = "SET_FAN_SWEEP_DIAMETER";
+export const SET_HEIGHT = "SET_HEIGHT";
+export const SET_FIRM = "SET_FIRM";
+export const SET_GLOBAL = "SET_GLOBAL";
+
+export const REPLACE_MODEL_YEAR = "REPLACE_MODEL_YEAR";
+export const REPLACE_AIR_FLOW = "REPLACE_AIR_FLOW";
+export const REPLACE_MAX_POWER = "REPLACE_MAX_POWER";
+export const REPLACE_SOUND_AT_MAX_SPEED = "REPLACE_SOUND_AT_MAX_SPEED";
+export const REPLACE_FAN_SWEEP_DIAMETER = "REPLACE_FAN_SWEEP_DIAMETER";
+export const REPLACE_HEIGHT = "REPLACE_HEIGHT";
+export const REPLACE_FIRM = "REPLACE_FIRM";
+export const REPLACE_GLOBAL = "REPLACE_GLOBAL";
